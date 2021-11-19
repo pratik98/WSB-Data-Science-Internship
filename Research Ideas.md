@@ -6,4 +6,9 @@
   * Time Period -2018- 2021
   * Same analysis for other stock markets. e.g.india, china etc.
   * Compare it with similar analysis done from other social media platform e.g. Twitter
+  * Applying Machine/Deep Learning techniques to the reddit comments in order to cluster the emojis and Words used on WSB.
+  * Find cosine similarity between word vectors of,
+    - an emoji and a word
+    - an emoji and an emoji
+    - a word and a word 
   
