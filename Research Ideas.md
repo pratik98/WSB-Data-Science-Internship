@@ -12,6 +12,7 @@
   * Applying Machine/Deep Learning techniques to the reddit comments
     - cluster the emojis and Words used on WSB
     - generate WSB-like comments/posts
+    - is it possible to identify sarcastic comments using DL/NLP? quite a lot of comments talking about some stocks going HIGH are sarcasm. Explore sarcams detection literature.
     - (any other ideas?)
   * Find cosine similarity between word vectors of
     - an emoji and a word
