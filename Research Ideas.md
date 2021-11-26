@@ -21,7 +21,10 @@
 
   * User-based analysis
     - Are there differences between "old" users (pre-2021) and new ones?
-    - Are there clusters of users?
+    - Are there clusters of users? 
+    - Can we identify those that have posted (successful) DDs? 
+    - Can we rank the users according to their expertise?
+    - Are the same users active in the other reviewed subreddits? 
 
   * Compare it with 
     - similar analysis from other social media platform e.g. Twitter
