@@ -32,8 +32,8 @@ class Reddit:
         file_exists = os.path.isfile(f"data/submissions_{self._args.subreddit}.csv")
 
         total = 0
-        self._args.after = 1514769912
-        self._args.before = 1577833441 #31st dec, 2019
+        self._args.after = 1622591719 #Tuesday, June 1, 2021 11:55:19 PM
+        #self._args.before = 1577833441 #31st dec, 2019
         while True:
             url = f"https://api.pushshift.io/reddit/search/submission?subreddit={self._args.subreddit}" \
                   f"&q={self._args.query}&fields={','.join(fields)}&after={self._args.after}" \
@@ -77,8 +77,8 @@ class Reddit:
         ids = df_ids["id"]
         for author in ids:
             total = 0
-            self._args.after = 1514769912
-            self._args.before = 1577833441 #31st dec, 2019
+            self._args.after = 1622591719 #Tuesday, June 1, 2021 11:55:19 PM
+           # self._args.before = 1577833441 #31st dec, 2019
             while True:
                 url = f"https://api.pushshift.io/reddit/comment/search?subreddit={self._args.subreddit}" \
                       f"&q={self._args.query}&fields={','.join(fields)}&after={self._args.after}" \
