@@ -32,8 +32,8 @@ class Reddit:
         file_exists = os.path.isfile(f"data/submissions_{self._args.subreddit}.csv")
 
         total = 0
-        self._args.after = 1622591719 #Tuesday, June 1, 2021 11:55:19 PM
-        #self._args.before = 1577833441 #31st dec, 2019
+        self._args.after = 1514764799 #Sunday, December 31, 2017 11:59:59 PM
+        self._args.before = 1577833441 #31st dec, 2019
         while True:
             url = f"https://api.pushshift.io/reddit/search/submission?subreddit={self._args.subreddit}" \
                   f"&q={self._args.query}&fields={','.join(fields)}&after={self._args.after}" \
@@ -56,7 +56,7 @@ class Reddit:
                 if len(response_json) != self._args.count:
                     break
 
-                t = random.randint(5, 8)
+                t = random.randint(10, 30)
                 self._log.info(f"Sleeping for {t} seconds")
                 time.sleep(t)
 
@@ -121,5 +121,5 @@ class Reddit:
 
 if __name__ == "__main__":    
     Reddit().fetch_submissions()
-    Reddit().fetch_comments()
+    #Reddit().fetch_comments()
     
