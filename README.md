@@ -8,7 +8,16 @@
 
 Please cite our work in your publications if this code helps your research.
 
+
+
 ```
+@article{agrawal2022wallstreetbets,
+  title={WallStreetBets Beyond GameStop, YOLOs, and the Moon: The Unique Traits of Reddit’s Finance Communities},
+  author={Agrawal, Pratik and Buz, Tolga and de Melo, Gerard},
+  year={2022}
+}
+
 Agrawal, Pratik; Buz, Tolga; and de Melo, Gerard, "WallStreetBets Beyond GameStop, YOLOs, and the Moon: The Unique Traits of Reddit’s Finance Communities" (2022). AMCIS 2022 Proceedings. 8.
 https://aisel.aisnet.org/amcis2022/sig_sc/sig_sc/8
 ```
+
